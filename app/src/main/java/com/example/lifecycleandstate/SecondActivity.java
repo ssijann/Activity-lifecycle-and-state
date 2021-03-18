@@ -28,11 +28,12 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     public void returnReply(View view) {
+        Log.d(LOG_TAG, "End SecondActivity");
         String reply = mReply.getText().toString();
         Intent replyIntent = new Intent();
         replyIntent.putExtra(EXTRA_REPLY, reply);
         setResult(RESULT_OK,replyIntent);
-        Log.d(LOG_TAG, "End SecondActivity");
+
         finish();
     }
 }
