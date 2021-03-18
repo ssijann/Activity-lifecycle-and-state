@@ -2,7 +2,7 @@
 
 <b> Activity lifecycle and state</b>
 <br/>
-<img src="lifecycletask.png"  height 500">
+<img src="lifecycletask.png"  width ="500">
 </br>
 <b>Homework</b>
 <br/>
